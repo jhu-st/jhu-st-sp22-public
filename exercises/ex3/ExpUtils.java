@@ -14,6 +14,7 @@ public class ExpUtils {
         if (input.isEmpty()) {
             return true;
         }
+        
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < input.length(); i++) {
             char current = input.charAt(i);

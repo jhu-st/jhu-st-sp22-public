@@ -96,7 +96,7 @@ public class TriangleTest {
         assertEquals(0 , Triangle.triangle(1, 2, 3));
     }
 
-    // 1. a + b is equal c
+    // 2. a + c is equal b
     // Expected v Actual Discrepancy detected: Does not rule out  as invalid whe
     // a plus c is equal to b
     @Test
@@ -104,7 +104,7 @@ public class TriangleTest {
         assertEquals(0 , Triangle.triangle(1, 3, 2));
     }
 
-    // 1. a + b is equal c
+    // 3. b + c is equal a
     @Test
     public void testTriangleIvalidBPlusCIsA() {
         assertEquals(0 , Triangle.triangle(3, 1, 2));
