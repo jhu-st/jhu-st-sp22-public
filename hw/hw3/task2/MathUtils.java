@@ -48,7 +48,7 @@ public class MathUtils {
      * for all of the arrays.
      * @throws IllegalArgumentException if the index is invalid
      */
-    protected static double[] getColumn(int column, double[] ... nums) {
+    public static double[] getColumn(int column, double[] ... nums) {
         double[] ret = new double[nums.length];
         for(int i = 0; i < nums.length; i++) {
             double[] curr = nums[i];
